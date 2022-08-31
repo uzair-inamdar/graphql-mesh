@@ -134,7 +134,7 @@ export async function getJSONSchemaOptionsFromOpenAPIOptions(
     const pathObj = oasOrSwagger.paths[relativePath];
     const pathParameters = pathObj.parameters;
     for (const method in pathObj) {
-      if (method === 'parameters') {
+      if (method === 'parameters' || method.match(/^x-.*$/i).length) {
         continue;
       }
       const methodObj = pathObj[method] as OpenAPIV2.OperationObject | OpenAPIV3.OperationObject;
