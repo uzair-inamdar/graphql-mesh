@@ -1,5 +1,11 @@
 # @graphql-mesh/apollo-link
 
+## 8.0.3
+
+### Patch Changes
+
+- [`0bbd55cdd`](https://github.com/Urigo/graphql-mesh/commit/0bbd55cdd5e1428ade1223950ac1d7fca255cdff) Thanks [@ardatan](https://github.com/ardatan)! - Fix apollo import
+
 ## 8.0.2
 
 ### Patch Changes

@@ -1,5 +1,12 @@
 # @graphql-mesh/cli
 
+## 0.78.27
+
+### Patch Changes
+
+- [#4602](https://github.com/Urigo/graphql-mesh/pull/4602) [`a2a60ac0c`](https://github.com/Urigo/graphql-mesh/commit/a2a60ac0ce4065a0e048417891c900c605b7184f) Thanks [@renovate](https://github.com/apps/renovate)! - dependencies updates:
+  - Updated dependency [`dotenv@16.0.3` ↗︎](https://www.npmjs.com/package/dotenv/v/16.0.3) (from `16.0.2`, in `dependencies`)
+
 ## 0.78.26
 
 ### Patch Changes
